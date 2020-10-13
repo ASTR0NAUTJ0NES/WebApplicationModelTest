@@ -1,0 +1,23 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+<form asp-action="FizzBuzz">
+    <div class="row">
+        <div class="col">
+            <input name="fizz" placeholder="Enter number 1" />
+        </div>
+        <div class="col">
+            <input name="buzz" placeholder="Enter number 2" />
+        </div>
+        <div class="col">
+            <button type="submit">Submit</button>
+        </div>
+    </div>
+</form>
+
+<div class="row">
+    <div class="col">
+        <p>@ViewData["FizzBuzz"]</p>
+    </div>
+</div>
